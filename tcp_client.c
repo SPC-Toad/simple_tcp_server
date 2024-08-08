@@ -6,8 +6,6 @@
 
 #include <netinet/in.h>
 
-void function1 () {}
-
 int main(int argc, char* argv[]) {
     // Take in the port number from command line argument.
     int port = atoi(argv[1]);
